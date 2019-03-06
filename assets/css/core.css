@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+:root {
+	--c-primary: #33559B;
+	--c-primary-dark: #254079;
+	--c-white: #FFFFFF;
+	--c-black: #000000;
+	--c-black-light: #555555;
+	--c-gray: #EEEEEE;
+}
+
+body {
+	background-color: #EEEEEE;
+	font-family: 'Open Sans';
+}
+
+.container {
+	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.45);
+	-webkit-box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.45);
+}
+
+
+
+/* APP HEADER : START */
+.app-header .container {
+	background-image: url('../img/header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.app-header .container h3 {
+
+	font-size: 28px;
+	font-weight: 700;
+	color: var(--c-white);
+	padding-top: 10px;
+	text-shadow: 3px 3px 0 #444, 4px 4px 0 #444;
+}
+/* APP HEADER : START */
+
+
+
+/* APP NAVBAR : START */
+.app-navbar .navbar {
+	background-color: var(--c-primary) !important;
+}
+
+.app-navbar .navbar .navbar-brand {
+	font-family: 'Open Sans';
+	color: var(--c-white);
+	font-weight: 600;
+}
+
+.app-navbar .navbar button {
+	border-color: rgba(255,255,255,0.8);
+}
+
+.app-navbar .navbar button .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.app-navbar .navbar .navbar-collapse .navbar-nav li {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.app-navbar .navbar .navbar-collapse .navbar-nav li a {
+	color: var(--c-white);
+}
+
+.app-navbar .navbar .navbar-collapse .navbar-nav li .dropdown-menu {
+	top: 110%;
+	border-radius: 0;
+	padding: 0px;
+}
+
+.app-navbar .navbar .navbar-collapse .navbar-nav li .dropdown-menu .dropdown-item {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: var(--c-primary);
+	color: var(--c-white);
+}
+
+.app-navbar .navbar .navbar-collapse .navbar-nav li .dropdown-menu .dropdown-item:hover {
+	background-color: var(--c-primary-dark);
+}
+/* APP NAVBAR : ENDS */
+
+
+
+/* CRGU DATA : START */
+.crgu .container {
+	background-color: var(--c-white);
+}
+
+
+.crgu .container .title-bar {
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: var(--c-white);
+}
+
+.crgu .container .title-bar h2 {
+	font-family: 'Titillium Web';
+	font-size: 48px;
+	padding: 55px;
+	margin: 0px;
+
+}
+
+.crgu .container .contact {
+	padding-top: 100px;
+	padding-top: 100px;
+}
+
+.crgu .container .content {
+	padding: 0px 35px 20px 35px;
+}
+
+.crgu .container .content h4 {
+	font-family: 'Titillium Web';
+	font-size: 26px;
+	margin-top: 35px;
+}
+
+.crgu .container .content h4:before {
+	font-family: FontAwesome;
+	/*content: "\f10c";*/
+	font-size: 16px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+/* CRGU DATA : ENDS */
+
+
+
+/* CONTACT CARDS : START */
+.card-contact {
+	border: 2px solid var(--c-primary) !important;
+	border-radius: 0px;
+}
+
+.card-contact .card-header {
+	border-radius: 0px !important;
+	background-color: var(--c-primary);
+	border-bottom: 0px;
+	color: var(--c-white);
+	font-family: 'Titillium Web';
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.card-contact .card-body {
+	font-family: 'Titillium Web';
+	font-size: 18px;
+	color: var(--c-black) !important;
+}
+
+.card-contact .card-body .card-title i.fa {
+	font-size: 34px;
+}
+
+.card-contact .card-body .card-call-ho {
+	border-right: 1px solid #cccccc; 
+}
+/* CONTACT CARDS : ENDS */
+
+
+
+/* INFORMATION CARDS : START */
+.card-info {
+	border: 0px !important;
+	border-radius: 0px;
+	margin-bottom: 25px;
+}
+
+.card-info .card-header {
+	border-radius: 0px !important;
+	background-color: var(--c-gray);
+	border-bottom: 0px;
+	color: var(--c-black-light);
+	font-family: 'Titillium Web';
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 5px !important;
+}
+
+.card-info .card-header h4 {
+	margin: 0px !important;
+
+}
+
+.card-info .card-header h5 {
+	font-size: 20px;
+	margin-bottom: 0px !important;
+}
+
+.card-info .card-body p {
+	font-family: 'Source Sans Pro';
+	font-size: 20px;
+	font-weight: 300;
+	color: var(--c-black-light);
+}
+
+.card-person .card-body {
+	border-radius: 0px 0px 4px 4px;
+	background-color: #E8E8E8;
+	color: #555555;
+}
+/* INFORMATION CARDS : ENDS */
+
+
+
+/* ROLE OF HONOUR CARD : START */
+.card-roh {
+	font-family: 'Open Sans';
+}
+
+.card-roh .card-header {
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font-size: 26px;
+	font-weight: 800;
+	background-color: #666666;
+	color: #FFFFFF;
+}
+
+.card-roh .card-body {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.card-roh .card-body .card-title {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.card-roh .card-body .card-text {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.card-roh .card-footer {
+	font-size: 14px;
+	font-weight: 600;
+}
+/* ROLE OF HONOUR CARD : ENDS */
+
+
+
+/* PROJECTS CARD : START */
+.card-projects {
+	font-family: 'Open Sans';
+	border: 2px solid var(--c-gray);
+}
+
+.card-projects .card-body .card-title {
+	font-size: 22px;
+	font-weight: 600;
+	border-bottom: 1px solid #bbbbbb;
+}
+
+.card-projects .card-body .card-text {
+	font-weight: 300;
+	font-size: 16px;
+}
+/* PROJECTS CARD : START */
+
+
+
+/* GALLERY ITEM : START */
+.gallery-item a {
+	padding: 10px;
+}
+/* GALLERY ITEM : ENDS */
+
+
+
+/* APP FOOTER : START */
+footer .container {
+	background-color: var(--c-primary);
+	color: var(--c-white);
+}
+
+footer .col-md-3 {
+	padding-left: 40px;
+}
+
+footer .col-md-3 h5 {
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+footer .col-md-3 ul {
+	padding-left: 12px;
+	list-style: none;
+}
+
+footer .col-md-3 ul li {
+	margin-top: 4px;
+}
+
+footer .col-md-3 ul li a {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: var(--c-white);
+}
+
+footer .col-md-3 ul li a:before {
+	font-family: FontAwesome;
+	vertical-align: middle;
+	font-size: 10px;
+	content: "\f054\00a0\00a0";
+}
+
+footer .col-md-3 ul li a:hover {
+	text-decoration: none;
+	color: #CCCCCC;
+}
+
+footer .col-md-3 strong {
+	padding-left: 12px;
+	font-size: 14px;
+}
+
+footer .col-md-3 address {
+	padding-left: 12px;
+	font-size: 13.5px;
+}
+
+footer .contact-us ul li {
+	font-family: 'Open Sans';
+	font-size: 13.5px;
+}
+
+.copyright .container {
+	padding: 8px 20px !important;
+	color: #BBBBBB;
+	background-color: #333333;
+	font-size: 12px;
+}
+
+.copyright .container a {
+	color: var(--c-white);
+}
+
+.copyright .container a:hover {
+	text-decoration: none;
+}
+/* APP FOOTER : ENDS */

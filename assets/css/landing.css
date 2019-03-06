@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800');
+
+.crgu-overview {
+	background-color: var(--c-white);
+}
+
+.crgu-overview h5 {
+	font-family: 'Source Sans Pro';
+	font-size: 36px;
+}
+
+.crgu-overview hr {
+	background-color: #DDD;
+}
+
+.crgu-overview p {
+	font-family: 'Source Sans Pro';
+	font-size: 22px;
+	font-weight: 300;
+}
+
+.card-event .card-body hr {
+	margin-top: 0px !important;
+	border-width: 2px;
+	border-color: #CCCCCC;
+}
+
+.card-event .card-body .card-title {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.card-event .card-body .card-text {
+	font-family: 'Open Sans';
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.card-event .card-footer .badge {
+	padding: 6px;
+	border-radius: 2px;
+}
+
+.ov-msg .col-md-6 {
+	padding-top: 85px;
+	padding-bottom: 85px;
+	background-color: var(--c-gray);
+}
+
+.ov-msg .col-md-6:nth-child(1) {
+	border-right: 2px solid var(--c-gray);
+}
+
+.ov-msg .col-md-6 .card-quote {
+	border: 0px;
+}
+
+.ov-msg .col-md-6 .card-quote .quotation-mark {
+	position: absolute;
+	margin-top: -85px;
+	font-weight: bold;
+	font-size:100px;
+	color: #AAAAAA;
+	font-family: "Coda Caption"
+}
+
+.ov-msg .col-md-6 .card-quote .card-text {
+	font-family: 'Open Sans';
+	font-size: 18px;
+	font-weight: 300;
+	margin-left: 40px;
+}
+
+.ov-msg .col-md-6 .card-quote .blockquote-footer {
+	margin-left: 190px;
+}
